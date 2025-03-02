@@ -1,0 +1,50 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Flask-Specific Files
+instance/
+config.py
+settings.py
+.env
+*.log
+*.sqlite3
+*.db
+
+# Cache and logs
+*.log
+*.out
+*.pid
+*.swp
+
+# Pytest / Unit test cache
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.pycoverage
+*.pyo
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode & IDE Files
+.vscode/
+.idea/
+*.iml
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Node Modules (if using a frontend)
+node_modules/
